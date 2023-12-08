@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Routes</title>
+</head>
+<body>
+    <h1>Dokumentation för min API</h1>
+    <h2>Alla olika routes</h2>
+
+    <ul>
+
+      <li><em>GET /users</em> - Retunerar alla avnändare som finns i databasen.</li>
+
+      <br>
+
+      <li><em>GET /users/:id</em> - Retunerar en specefik användare baserat på deras id-nummber, byt ut ":id" mot ett nummer.</li>
+
+      <br>
+
+      <li><em>POST /users</em> - Skapar en ny användare accepterar JSON objekt på formatet {"username": "", "password": "", "name": "", "email": ""}. <code>username</code> är obligatoriskt, annars skickas 422-meddelande (unprocessable entity).</li>
+
+
+    
+
+  </body>
+</html>
